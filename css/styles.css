@@ -1,0 +1,143 @@
+body
+{
+    background-color: #1e4e7f;
+    font-family: sans-serif, Arial;
+    padding: 0;
+    margin: 0;
+}
+
+#conteneur
+{
+    background-color: #fff;
+    margin: auto;
+    width: 955px;
+    min-height: 500px;
+}
+
+header
+{
+    background-image: url(../img/bandeau1.jpg);
+    background-origin: left;
+    background-repeat: no-repeat;
+    background-size: 955px 185px;
+    height: 185px;
+    width: 955px;
+    margin-bottom: 3px;
+    display: block;
+}
+
+nav
+{
+    background-color: #88a2b9;
+    display: block;
+    height: auto;
+    width: auto;
+}
+
+nav > ul
+{
+    padding: 0;
+    display: block;
+    margin: auto;
+    height: auto;    
+}
+
+nav > ul > li
+{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+nav > ul > li:first-child
+{
+    margin-left: 10px;
+}
+
+.submenu
+{
+    display: none;
+}
+
+.submenu li
+{
+    padding: 5px;
+    background-color: #88a2b9;
+    width: 120px;
+    display: block;
+    border-bottom: 1px solid grey; 
+}
+
+nav ul li:hover .submenu
+{
+    display: block;
+    z-index: 10000;
+    position: absolute;
+    padding: 0px;
+    font-size: 0.8em;
+    transition-duration: 0.22s;
+}
+
+
+nav > ul > li > a 
+{
+    display: inline-block;
+    background-color: transparent ;
+    color: #002f7c;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    width: 120px;
+    
+}
+
+nav > ul > li > a:hover
+{
+    color: #88a2b9;
+    background-color: #002f7c;
+}
+
+
+section{
+    min-height: 600px;
+    background-color: #fff;
+}
+
+article h2
+{
+    border-bottom: 1px solid #000;
+    background-image: url(../img/puce_h2.png);
+    background-origin: right;
+    background-repeat: no-repeat;
+    width: 900px;
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 25px;
+    font-size: 1em;
+    color: #002f53;
+}
+
+article p
+{
+   width: 925px; 
+   margin: auto;
+   text-align: left;
+   margin-top: 20px;
+   margin-bottom: 15px;
+}
+
+article p img
+{
+    margin-top: 20px;
+}
+
+footer
+{
+    background-color: #88a2b9;
+    padding: 10px;
+    color: #2a5279;
+    text-align: center;
+}
