@@ -1,8 +1,0 @@
-{
-    "name": "Ajax",
-    "version": "1.0.0",
-    "keywords": ["util", "functional", "server", "client", "browser"],
-    "author": "b19",
-    "contributors": [],
-    "dependencies": {}
-}
